@@ -1,3 +1,0 @@
-#Version=1.26C
-#Keyword(VAL),Variable ID,Link Event ID,Number Of Monitoring Limits
-#Keyword(LMT),E/D (0: Disabled / 1: Enabled),Limit ID,Dead Band lower Limit,Dead Band Upper Limit,Comment

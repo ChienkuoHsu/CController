@@ -1,8 +1,0 @@
-M,6043,2,42,START,1,0,20,0,null,null,null,Host Command Ack.:S2F42
-M,6043,2,42,STOP,1,0,20,0,null,null,null,Host Command Ack.:S2F42
-M,6043,2,42,PP_SELECT,1,0,20,0,null,null,null,Host Command Ack.:S2F42
-M,6043,2,42,LOCAL,1,0,20,0,null,null,null,Host Command Ack.:S2F42
-M,6043,2,42,REMOTE,1,0,20,0,null,null,null,Host Command Ack.:S2F42
-M,6231,7,24,FPS,0,0,0,0,null,null,null,Formatted Process Program Acknowledge:S7F24
-M,6233,7,26,FPR,0,0,0,0,null,null,null,Formatted Process Program Data:S7F26
-M,6238,10,4,VTN,0,0,0,0,null,null,null,"Terminal Display,Single Acknowledge:S10F4"

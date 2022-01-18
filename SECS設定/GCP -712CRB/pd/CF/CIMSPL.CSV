@@ -1,5 +1,0 @@
-#
-#	cimspl定義ファイル
-#		SPOOLFILE_SIZE : スプールファイルサイズ(byte)
-#
-SPOOLFILE_SIZE=1048576

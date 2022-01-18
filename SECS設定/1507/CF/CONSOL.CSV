@@ -1,3 +1,0 @@
-#Version=1.29F
-#CH Number,Baud Rate,Data Length,Parity,Stop Bit,Flow Control
-0,9600,B8,PN,S1,NON
