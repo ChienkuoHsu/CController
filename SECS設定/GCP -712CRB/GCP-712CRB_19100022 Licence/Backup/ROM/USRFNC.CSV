@@ -1,0 +1,4 @@
+#Version=1.26C
+#Keyword(PLG),Plugin Name
+#Keyword(USR),User Define Number,Start Request Trigger CPU Number,Start Request Trigger Device Type,Start Request Trigger Device Number,Hold Time,Return Notify CPU Number,Return Notify Device Type,Return Notify Device Number,Entry Register CPU Number,Entry Register Type,Entry Register Number,Comments
+PLG,PLUGIN

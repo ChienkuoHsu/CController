@@ -1,0 +1,152 @@
+SF,1,1,Name,Primary Message
+SF,1,2,Name,Secondary Message
+SF,2,41,START,Host Command Transmission:S2F41
+DT,SC/TR[1]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[1]/PM/L/I,20,D,10600,5,null,2,1,0,null,null,null,0,Remote Command
+DT,SC/TR[1]/PM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,42,START,Host Command Ack.:S2F42
+DT,SC/TR[1]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[1]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
+DT,SC/TR[1]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,41,STOP,Host Command Transmission:S2F41
+DT,SC/TR[2]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[2]/PM/L/I,20,D,10600,4,null,2,1,0,null,null,null,0,Remote Command
+DT,SC/TR[2]/PM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,42,STOP,Host Command Ack.:S2F42
+DT,SC/TR[2]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[2]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
+DT,SC/TR[2]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,41,PP_SELECT,Host Command Transmission:S2F41
+DT,SC/TR[3]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[3]/PM/L/I,20,D,10600,9,null,2,1,0,null,null,null,0,Remote Command
+DT,SC/TR[3]/PM/L/L,0,null,null,3,null,2,2,0,null,null,null,0,
+DT,SC/TR[3]/PM/L/L/L[0],0,null,null,2,null,3,1,0,null,null,null,0,
+DT,SC/TR[3]/PM/L/L/L[0]/I[0],20,FX,LOTID,5,null,4,1,0,null,null,null,0,
+DT,SC/TR[3]/PM/L/L/L[0]/I[1],20,D,10500,20,null,4,2,0,null,null,null,0,
+DT,SC/TR[3]/PM/L/L/L[1],0,null,null,2,null,3,2,0,null,null,null,0,
+DT,SC/TR[3]/PM/L/L/L[1]/I[0],20,FX,PPID,4,null,4,1,0,null,null,null,0,
+DT,SC/TR[3]/PM/L/L/L[1]/I[1],20,D,10520,20,null,4,2,0,null,null,null,0,
+DT,SC/TR[3]/PM/L/L/L[2],0,null,null,2,null,3,3,0,null,null,null,0,
+DT,SC/TR[3]/PM/L/L/L[2]/I[0],20,FX,QTY,3,null,4,1,0,null,null,null,0,
+DT,SC/TR[3]/PM/L/L/L[2]/I[1],20,D,10535,6,null,4,2,0,null,null,null,0,
+SF,2,42,PP_SELECT,Host Command Ack.:S2F42
+DT,SC/TR[3]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[3]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
+DT,SC/TR[3]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,41,LOCAL,Host Command Transmission:S2F41
+DT,SC/TR[4]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[4]/PM/L/I,20,D,10600,5,null,2,1,0,null,null,null,0,Remote Command
+DT,SC/TR[4]/PM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,42,LOCAL,Host Command Ack.:S2F42
+DT,SC/TR[4]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[4]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
+DT,SC/TR[4]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,41,REMOTE,Host Command Transmission:S2F41
+DT,SC/TR[5]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[5]/PM/L/I,20,D,10600,6,null,2,1,0,null,null,null,0,Remote Command
+DT,SC/TR[5]/PM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,42,REMOTE,Host Command Ack.:S2F42
+DT,SC/TR[5]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[5]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
+DT,SC/TR[5]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,41,SignalControl,Host Command Transmission:S2F41
+DT,SC/TR[6]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[6]/PM/L/I,20,FX,STC,3,null,2,1,0,null,null,null,0,Remote Command
+DT,SC/TR[6]/PM/L/L,0,null,null,1,null,2,2,0,null,null,null,0,
+DT,SC/TR[6]/PM/L/L/L,0,null,null,2,null,3,1,0,null,null,null,0,
+DT,SC/TR[6]/PM/L/L/L/I[0],20,FX,STATUS,6,null,4,1,0,null,null,null,0,
+DT,SC/TR[6]/PM/L/L/L/I[1],20,D,10540,1,null,4,2,0,null,null,null,0,1=off 2=on 3=Flash
+SF,2,42,SignalControl,Host Command Ack.:S2F42
+DT,SC/TR[6]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[6]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
+DT,SC/TR[6]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,41,BuzzerControl,Host Command Transmission:S2F41
+DT,SC/TR[7]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[7]/PM/L/I,20,FX,BUZZER,6,null,2,1,0,null,null,null,0,Remote Command
+DT,SC/TR[7]/PM/L/L,0,null,null,1,null,2,2,0,null,null,null,0,
+DT,SC/TR[7]/PM/L/L/L,0,null,null,2,null,3,1,0,null,null,null,0,
+DT,SC/TR[7]/PM/L/L/L/I[0],20,FX,STATUS,6,null,4,1,0,null,null,null,0,
+DT,SC/TR[7]/PM/L/L/L/I[1],20,D,10542,1,null,4,2,0,null,null,null,0,1=off 2=on 
+SF,2,42,BuzzerControl,Host Command Ack.:S2F42
+DT,SC/TR[7]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[7]/SM/L/I,10,FX,0,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
+DT,SC/TR[7]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,7,23,FPS,Formatted Process Program Send:S7F23
+DT,SC/TR[8]/PM/L,0,null,null,4,null,1,1,0,null,null,null,0,
+DT,SC/TR[8]/PM/L/I[0],20,R,2036,20,null,2,1,0,null,null,null,0,Process Program ID
+DT,SC/TR[8]/PM/L/I[1],20,R,138,13,null,2,2,0,null,null,null,0,GCP-712CRB
+DT,SC/TR[8]/PM/L/I[2],20,R,145,5,null,2,3,0,null,null,null,0,Revision Code Of Software
+DT,SC/TR[8]/PM/L/L,0,null,null,1,null,2,4,0,null,null,null,0,
+DT,SC/TR[8]/PM/L/L/L,0,null,null,2,null,3,1,0,null,null,null,0,
+DT,SC/TR[8]/PM/L/L/L/I,52,R,151,1,null,4,1,0,null,null,null,0,Command Code
+DT,SC/TR[8]/PM/L/L/L/L,0,null,null,18,null,4,2,0,null,null,null,0,
+DT,SC/TR[8]/PM/L/L/L/L/I[0],52,R,2035,1,null,5,1,0,null,null,null,0,PPNo
+DT,SC/TR[8]/PM/L/L/L/L/I[1],44,R,2046,1,null,5,2,0,null,null,null,0,TC01_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[2],44,R,2048,1,null,5,3,0,null,null,null,0,TC02_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[3],44,R,2050,1,null,5,4,0,null,null,null,0,TC03_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[4],44,R,2052,1,null,5,5,0,null,null,null,0,TC04_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[5],44,R,2054,1,null,5,6,0,null,null,null,0,TC05_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[6],44,R,2056,1,null,5,7,0,null,null,null,0,TC06_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[7],44,R,2058,1,null,5,8,0,null,null,null,0,TC07_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[8],44,R,2060,1,null,5,9,0,null,null,null,0,TC08_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[9],44,R,2062,1,null,5,10,0,null,null,null,0,TC09_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[10],44,R,2064,1,null,5,11,0,null,null,null,0,TC10_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[11],44,R,2066,1,null,5,12,0,null,null,null,0,TC11_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[12],44,R,2068,1,null,5,13,0,null,null,null,0,TC12_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[13],44,R,2068,1,null,5,14,0,null,null,null,0,IRA01_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[14],44,R,2068,1,null,5,15,0,null,null,null,0,IRA01_SV
+DT,SC/TR[8]/PM/L/L/L/L/I[15],44,R,2070,1,null,5,16,0,null,null,null,0,StepCount
+DT,SC/TR[8]/PM/L/L/L/L/I[16],44,R,2072,1,null,5,17,0,null,null,null,0,StepTime
+DT,SC/TR[8]/PM/L/L/L/L/I[17],44,R,2074,1,null,5,18,0,null,null,null,0,PanelWidth
+SF,7,24,FPS,Formatted Process Program Acknowledge:S7F24
+DT,SC/TR[8]/SM/I,10,R,157,1,null,1,1,0,null,null,null,0,Acknowledge Code
+SF,7,25,FPR,Formatted Process Program Request:S7F25
+DT,SC/TR[9]/PM/I,20,R,4136,20,null,1,1,0,null,null,null,0,Process Program ID
+SF,7,26,FPR,Formatted Process Program Data:S7F26
+DT,SC/TR[9]/SM/L,0,null,null,4,null,1,1,0,null,null,null,0,
+DT,SC/TR[9]/SM/L/I[0],20,R,7000,20,null,2,1,0,null,null,null,0,Process Program ID
+DT,SC/TR[9]/SM/L/I[1],20,R,138,10,null,2,2,0,null,null,null,0,Device Type
+DT,SC/TR[9]/SM/L/I[2],20,R,145,10,null,2,3,0,null,null,null,0,Revision Code Of Software
+DT,SC/TR[9]/SM/L/L,0,null,null,1,null,2,4,0,null,null,null,0,
+DT,SC/TR[9]/SM/L/L/L,0,null,null,2,null,3,1,0,null,null,null,0,
+DT,SC/TR[9]/SM/L/L/L/I,52,R,151,1,null,4,1,0,null,null,null,0,Command Code
+DT,SC/TR[9]/SM/L/L/L/L,0,null,null,11,null,4,2,0,null,null,null,0,
+DT,SC/TR[9]/SM/L/L/L/L/I[0],52,R,4135,1,null,5,1,0,null,null,null,0,PPNo
+DT,SC/TR[9]/SM/L/L/L/L/I[1],20,R,7000,20,null,5,2,0,null,null,null,0,PPID
+DT,SC/TR[9]/SM/L/L/L/L/I[2],52,R,4157,1,null,5,3,0,null,null,null,0,UV1_Power
+DT,SC/TR[9]/SM/L/L/L/L/I[3],52,R,4158,1,null,5,4,0,null,null,null,0,UV2_Power
+DT,SC/TR[9]/SM/L/L/L/L/I[4],52,R,4159,1,null,5,5,0,null,null,null,0,UV3_Power
+DT,SC/TR[9]/SM/L/L/L/L/I[5],52,R,4160,1,null,5,6,0,null,null,null,0,UV4_Power
+DT,SC/TR[9]/SM/L/L/L/L/I[6],52,R,4153,1,null,5,7,0,null,null,null,0,UV1_Switch
+DT,SC/TR[9]/SM/L/L/L/L/I[7],52,R,4154,1,null,5,8,0,null,null,null,0,UV2_Switch
+DT,SC/TR[9]/SM/L/L/L/L/I[8],52,R,4155,1,null,5,9,0,null,null,null,0,UV3_Switch
+DT,SC/TR[9]/SM/L/L/L/L/I[9],52,R,4156,1,null,5,10,0,null,null,null,0,UV4_Switch
+DT,SC/TR[9]/SM/L/L/L/L/I[10],44,R,4151,1,null,5,11,0,null,null,null,0,Speed
+SF,10,3,VTN,"Terminal Display,Single:S10F3"
+DT,SC/TR[10]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
+DT,SC/TR[10]/PM/L/I[0],10,R,12000,1,null,2,1,0,null,null,null,0,Terminal Id
+DT,SC/TR[10]/PM/L/I[1],20,R,12001,40,null,2,2,0,null,null,null,0,Text
+SF,10,4,VTN,"Terminal Display,Single Acknowledge:S10F4"
+DT,SC/TR[10]/SM/I,10,D,10018,1,null,1,1,0,null,null,null,0,Acknowledge Code
+SF,9,1,UDN,Undefined Device ID:S9F1
+DT,SC/TR[11]/PM/I,10,FX,0,10,null,1,1,0,null,null,null,0,SECS Header
+SF,9,2,UDN,Undefined Device Response(Unused)
+SF,9,3,USN,Undefined Stream Type:S9F3
+DT,SC/TR[12]/PM/I,10,FX,0,10,null,1,1,0,null,null,null,0,SECS Header
+SF,9,4,USN,Undefined Stream Type Response(Unused)
+SF,9,5,UFN,Undefined Function Type:S9F5
+DT,SC/TR[13]/PM/I,10,FX,0,10,null,1,1,0,null,null,null,0,SECS Header
+SF,9,6,UFN,Undefined Function Type Response(Unused)
+SF,9,7,IDN,Invalid Data:S9F7
+DT,SC/TR[14]/PM/I,10,FX,0,10,null,1,1,0,null,null,null,0,SECS Header
+SF,9,8,IDN,Invalid Data Response(Unused)
+SF,9,9,TTN,Transaction Timeout:S9F9
+DT,SC/TR[15]/PM/I,10,FX,0,10,null,1,1,0,null,null,null,0,SECS Header
+SF,9,10,TTN,Transaction Timeout Response(Unused)
+SF,9,11,DLN,Data Length Over:S9F11
+DT,SC/TR[16]/PM/I,10,FX,0,10,null,1,1,0,null,null,null,0,SECS Header
+SF,9,12,DLN,Data Length Over Response(Unused)
+SF,99,1,H_SCABT,Host Scenario Interruption Request:S99F1
+SF,99,2,H_SCABT,Host Scenario Interruption Response:S99F2(Unused)
+SF,99,3,E_SCABT,Scenario Interruption Notification:S99F3
+SF,99,4,E_SCABT,Scenario Interruption Response:S99F4(Unused)
