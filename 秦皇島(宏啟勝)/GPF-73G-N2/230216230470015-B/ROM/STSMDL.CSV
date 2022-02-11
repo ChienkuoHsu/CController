@@ -1,0 +1,6 @@
+#Version=1.31H
+#Keyword,E/D (0: Disabled / 1: Enabled),CPU Number,Device Type,Device Top No
+COM,0,1,M,0
+CNT,0,1,M,0
+PRC,0,1,M,0
+SPL,0,1,M,0

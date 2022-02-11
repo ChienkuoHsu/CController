@@ -1,0 +1,5 @@
+#Version=1.31H
+#Keyword(CFG),Space removal Flag
+#Keyword(TBL),Convert Table Number,Convert Table Name,Format,SECS Data Type,PLC Data Type,Data Counts,Variable Length Setting,Default SECS Data,Default PLC Data,Comments
+#Keyword(CHG),SECS Data,PLC Data,Comments
+CFG,1
