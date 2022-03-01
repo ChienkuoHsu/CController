@@ -16,38 +16,38 @@ SF,2,42,STOP,Host Command Ack.:S2F42
 DT,SC/TR[2]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
 DT,SC/TR[2]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
 DT,SC/TR[2]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
-SF,2,41,PP_SELECT,Host Command Transmission:S2F41
+SF,2,41,LOCAL,Host Command Transmission:S2F41
 DT,SC/TR[3]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
-DT,SC/TR[3]/PM/L/I,20,D,10600,9,null,2,1,0,null,null,null,0,Remote Command
-DT,SC/TR[3]/PM/L/L,0,null,null,3,null,2,2,0,null,null,null,0,
-DT,SC/TR[3]/PM/L/L/L[0],0,null,null,2,null,3,1,0,null,null,null,0,
-DT,SC/TR[3]/PM/L/L/L[0]/I[0],20,FX,LOTID,5,null,4,1,0,null,null,null,0,
-DT,SC/TR[3]/PM/L/L/L[0]/I[1],20,D,10500,20,null,4,2,0,null,null,null,0,
-DT,SC/TR[3]/PM/L/L/L[1],0,null,null,2,null,3,2,0,null,null,null,0,
-DT,SC/TR[3]/PM/L/L/L[1]/I[0],20,FX,PPID,4,null,4,1,0,null,null,null,0,
-DT,SC/TR[3]/PM/L/L/L[1]/I[1],20,D,10520,20,null,4,2,0,null,null,null,0,
-DT,SC/TR[3]/PM/L/L/L[2],0,null,null,2,null,3,3,0,null,null,null,0,
-DT,SC/TR[3]/PM/L/L/L[2]/I[0],20,FX,QTY,3,null,4,1,0,null,null,null,0,
-DT,SC/TR[3]/PM/L/L/L[2]/I[1],20,D,10535,6,null,4,2,0,null,null,null,0,
-SF,2,42,PP_SELECT,Host Command Ack.:S2F42
+DT,SC/TR[3]/PM/L/I,20,D,10600,5,null,2,1,0,null,null,null,0,Remote Command
+DT,SC/TR[3]/PM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
+SF,2,42,LOCAL,Host Command Ack.:S2F42
 DT,SC/TR[3]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
 DT,SC/TR[3]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
 DT,SC/TR[3]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
-SF,2,41,LOCAL,Host Command Transmission:S2F41
+SF,2,41,REMOTE,Host Command Transmission:S2F41
 DT,SC/TR[4]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
-DT,SC/TR[4]/PM/L/I,20,D,10600,5,null,2,1,0,null,null,null,0,Remote Command
+DT,SC/TR[4]/PM/L/I,20,D,10600,6,null,2,1,0,null,null,null,0,Remote Command
 DT,SC/TR[4]/PM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
-SF,2,42,LOCAL,Host Command Ack.:S2F42
+SF,2,42,REMOTE,Host Command Ack.:S2F42
 DT,SC/TR[4]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
 DT,SC/TR[4]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
 DT,SC/TR[4]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
-SF,2,41,REMOTE,Host Command Transmission:S2F41
+SF,2,41,PP_SELECT,Host Command Transmission:S2F41
 DT,SC/TR[5]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
-DT,SC/TR[5]/PM/L/I,20,D,10600,6,null,2,1,0,null,null,null,0,Remote Command
-DT,SC/TR[5]/PM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
-SF,2,42,REMOTE,Host Command Ack.:S2F42
+DT,SC/TR[5]/PM/L/I,20,FX,PP_SELECT,9,null,2,1,0,null,null,null,0,Remote Command
+DT,SC/TR[5]/PM/L/L,0,null,null,3,null,2,2,0,null,null,null,0,
+DT,SC/TR[5]/PM/L/L/L[0],0,null,null,2,null,3,1,0,null,null,null,0,
+DT,SC/TR[5]/PM/L/L/L[0]/I[0],20,FX,LOTID,5,null,4,1,0,null,null,null,0,
+DT,SC/TR[5]/PM/L/L/L[0]/I[1],20,D,10500,20,null,4,2,0,null,null,null,0,
+DT,SC/TR[5]/PM/L/L/L[1],0,null,null,2,null,3,2,0,null,null,null,0,
+DT,SC/TR[5]/PM/L/L/L[1]/I[0],20,FX,PPID,4,null,4,1,0,null,null,null,0,
+DT,SC/TR[5]/PM/L/L/L[1]/I[1],20,D,10520,20,null,4,2,0,null,null,null,0,
+DT,SC/TR[5]/PM/L/L/L[2],0,null,null,2,null,3,3,0,null,null,null,0,
+DT,SC/TR[5]/PM/L/L/L[2]/I[0],20,FX,QTY,3,null,4,1,0,null,null,null,0,
+DT,SC/TR[5]/PM/L/L/L[2]/I[1],20,D,10535,6,null,4,2,0,null,null,null,0,
+SF,2,42,PP_SELECT,Host Command Ack.:S2F42
 DT,SC/TR[5]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
-DT,SC/TR[5]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
+DT,SC/TR[5]/SM/L/I,10,D,10013,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
 DT,SC/TR[5]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
 SF,2,41,SignalControl,Host Command Transmission:S2F41
 DT,SC/TR[6]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,
@@ -58,7 +58,7 @@ DT,SC/TR[6]/PM/L/L/L/I[0],20,FX,STATUS,6,null,4,1,0,null,null,null,0,
 DT,SC/TR[6]/PM/L/L/L/I[1],20,D,10540,1,null,4,2,0,null,null,null,0,1=off 2=on 3=Flash
 SF,2,42,SignalControl,Host Command Ack.:S2F42
 DT,SC/TR[6]/SM/L,0,null,null,2,null,1,1,0,null,null,null,0,
-DT,SC/TR[6]/SM/L/I,10,D,10012,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
+DT,SC/TR[6]/SM/L/I,10,D,10014,1,null,2,1,0,null,null,null,0,Host Command Ack. Code
 DT,SC/TR[6]/SM/L/L,0,null,null,0,null,2,2,0,null,null,null,0,
 SF,2,41,BuzzerControl,Host Command Transmission:S2F41
 DT,SC/TR[7]/PM/L,0,null,null,2,null,1,1,0,null,null,null,0,

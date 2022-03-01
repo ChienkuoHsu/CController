@@ -1,53 +1,51 @@
 #Version=1.29F
 #Alarm No,E/D (0: Disabled / 1: Enabled),Alarm ID,Alarm Code,Alarm Text,Alarm Occurrence Event ID,Alarm Cancel Event ID,Comment
-1,1,50001,0,M00:Emergency stop switch error,12,13,M00:緊急停止開關異常
-2,1,50002,0,M01:Sequence phase relay error,12,13,M01:電源相序檢測異常
-3,1,50003,0,M02:Loading PCB jam error,12,13,M02:入口卡板異常
-4,1,50004,0,M03:Unloading PCB jam error,12,13,M03:出口卡板異常
-5,1,50005,0,M04:UV safety door open,12,13,M04:UV門防止打開開關異常
-6,1,50006,0,M05:Blower motor 1 overload,12,13,M05:上排風風車馬達異常
-7,1,50007,0,M06:Blower motor 2 overload,12,13,M06:下排風風車馬達異常
-8,1,50008,0,M07:Cooling fan A overload,12,13,M07:安定器冷卻風扇過載
-9,1,50009,0,M08:Cooling fan B overload,12,13,M08:進氣冷卻風扇過載
-10,1,50010,0,M09:Cooling fan C overload,12,13,M09:燈箱冷卻風扇過載
-11,1,50011,0,M10:Conveyor motor overload,12,13,M10:輸送馬達過載異常
-12,1,50012,0,M11:Inverter error,12,13,M11:輸送變頻機異常
-13,1,50013,0,M12:,12,13,M12:
-14,1,50014,0,M13:,12,13,M13:
-15,1,50015,0,M14:,12,13,M14:
-16,1,50016,0,M15:,12,13,M15:
-17,1,50017,0,M16:Unlaod PCB jam lamp off,12,13,M16:卡板熄燈
-18,1,50018,0,M17:UV door open lamp off,12,13,M17:安全門開啟時熄燈
-19,1,50019,0,M18:Inside PCB limit error,12,13,M18:爐內限制數量異常
-20,1,50020,0,M19:,12,13,M19:
-21,1,50021,0,M20:Exhaust over temp.,12,13,M20:排風溫度異常
-22,1,50022,0,M21:Load over temp.,12,13,M21:進料溫度異常
-23,1,50023,0,M22:Unload over temp.,12,13,M22:出料溫度異常
-24,1,50024,0,M23:,12,13,M23:
-25,1,50025,0,M24:Unloading interlock error,12,13,M24:出料連線異常
-26,1,50026,0,M25:,12,13,M25:
-27,1,50027,0,M26:,12,13,M26:
-28,1,50028,0,M27:,12,13,M27:
-29,1,50029,0,M28:Lamp 1 power supply error,12,13,M28:第 1 燈安定器異常
-30,1,50030,0,M29:UV1 light up error,12,13,M29:第 1 燈點燈失敗
-31,1,50031,0,M30:Lamp 2 power supply error,12,13,M30:第 2 燈安定器異常
-32,1,50032,0,M31:UV2 light up error,12,13,M31:第 2 燈點燈失敗
-33,1,50033,0,M32:Lamp 3 power supply error,12,13,M32:第 3 燈安定器異常
-34,1,50034,0,M33:UV3 light up error,12,13,M33:第 3 燈點燈失敗
-35,1,50035,0,M34:Lamp 4 power supply error,12,13,M34:第 4 燈安定器異常
-36,0,50036,0,M35:UV4 light up error,12,13,M35:第 4 燈點燈失敗
-37,1,50037,0,M36:,12,13,M36:
-38,1,50038,0,M37:,12,13,M37:
-39,1,50039,0,M38:,12,13,M38:
-40,1,50040,0,M39:,12,13,M39:
-41,1,50041,0,M40:Lamp on but convey not run,12,13,M40:點燈中輸送停止未運轉
-42,1,50042,0,M41:,12,13,M41:
-43,1,50043,0,M42:UV1 lamp maintain time out,12,13,M42:第 1 燈保養時間到達
-44,1,50044,0,M43:UV2 lamp maintain time out,12,13,M43:第 2 燈保養時間到達
-45,1,50045,0,M44:UV3 lamp maintain time out,12,13,M44:第 3 燈保養時間到達
-46,1,50046,0,M45:UV4 lamp maintain time out,12,13,M45:第 4 燈保養時間到達
-47,1,50047,0,M46:,12,13,M46:
-48,1,50048,0,M47:,12,13,M47:
-49,1,50049,0,M48:Roller maintain time out,12,13,M48:滾輪保養時間到達
-50,1,50050,0,M49:Over 30s after UV light up,12,13,M49:UV點燈後30秒不可選擇提示
-51,1,50051,0,M60:Start ECO mode ,12,13,M60:節能省電啟動中
+1,1,50001,0,Emergency Stop,12,13,?急停止异常
+2,1,50002,0,Power Phase Seq. Error,12,13,?源相序??异常
+3,1,50003,0,ELB Error,12,13,分路??接?异常
+4,1,50004,0,Air Lower Pressure,12,13,气?源?力??异常
+5,1,50005,0,,12,13,
+6,1,50006,0,,12,13,
+7,1,50007,0,,12,13,
+8,1,50008,0,,12,13,
+9,1,50009,0,,12,13,
+10,1,50010,0,TC Heater Error,12,13,?控器加?器异常
+11,1,50011,0,TC Over Temp.,12,13,?控器?度超?异常
+12,1,50012,0,,12,13,
+13,1,50013,0,,12,13,
+14,1,50014,0,Step 1 Ramp Timeout Alarm,12,13,第 1 段升?逾?异常
+15,1,50015,0,Step 1 Dwell Timeout Alarm,12,13,第 1 段恒?逾?异常
+16,1,50016,0,Step 2 Ramp Timeout Alarm,12,13,第 2 段升?逾?异常
+17,1,50017,0,Step 2 Dwell Timeout Alarm,12,13,第 2 段恒?逾?异常
+18,1,50018,0,Step 3 Ramp Timeout Alarm,12,13,第 3 段升?逾?异常
+19,1,50019,0,Step 3 Dwell Timeout Alarm,12,13,第 3 段恒?逾?异常
+20,1,50020,0,Step 4 Ramp Timeout Alarm,12,13,第 4 段升?逾?异常
+21,1,50021,0,Step 4 Dwell Timeout Alarm,12,13,第 4 段恒?逾?异常
+22,1,50022,0,Step 5 Ramp Timeout Alarm,12,13,第 5 段升?逾?异常
+23,1,50023,0,Step 5 Dwell Timeout Alarm,12,13,第 5 段恒?逾?异常
+24,1,50024,0,Step 6 Ramp Timeout Alarm,12,13,第 6 段升?逾?异常
+25,1,50025,0,Step 6 Dwell Timeout Alarm,12,13,第 6 段恒?逾?异常
+26,1,50026,0,Cooling Timeout Alarm,12,13,降???异常警?
+27,1,50027,0,Circulation Windmill Current Error,12,13,循????流??异常
+28,1,50028,0,Circulation Windmill Motor Error,12,13,循?????异常
+29,1,50029,0,Outside Oven OTP,12,13,外??箱超?防止器异常
+30,1,50030,0,Inlet Blower Overload,12,13,?气????异常
+31,1,50031,0,,12,13,
+32,1,50032,0,Oven Door Not Close In Auto Mode,12,13,自????未?
+33,1,50033,0,Oven Door Not Close In Producing,12,13,生?中?未?
+34,1,50034,0,Oven Door Not Close In Heating,12,13,加?中?未?
+35,1,50035,0,Oven Door Not Open Alarm,12,13,停止后未??警告
+36,0,50036,0,,12,13,
+37,1,50037,0,,12,13,
+38,1,50038,0,,12,13,
+39,1,50039,0,PLC Low Battery,12,13,PLC ?池?量不足
+40,1,50040,0,Temp. Controller Commun. Error,12,13,?控器通?异常
+41,1,50041,0,,12,13,
+42,1,50042,0,Oxygen Up Limit Alarm,12,13,含氧?上限异常
+43,1,50043,0,Filling Large N2 Over Time,12,13,大量充氮气逾?
+44,1,50044,0,,12,13,
+45,1,50045,0,,12,13,
+46,1,50046,0,,12,13,
+47,1,50047,0,,12,13,
+48,1,50048,0,,12,13,
+49,1,50049,0,Program End,12,13,程序?束
